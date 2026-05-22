@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Styled Portfolio</title>
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+    <header>
+      <h1 class="heading">Ritika Vishwakarma</h1>
+      <h2 class="heading">Aspriring Web Developer</h2>
+    
+      <section>
+        <nav>
+          <ul class="nav-list">
+            
+            <li><a  class="links" href="#about">About Me</a></li>
+            <li><a  class="links" href="#skills">My Skills</a></li>
+            <li><a  class="links" href="#project">My Projects</a></li>
+            <li><a  class="links" href="#contact">Contact Me</a></li>
+            
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <main>
+      <section id="about">
+        <h3>About Me</h3>
+        <p class="para">
+          I am a web development beginner and have started my journey by
+          learning HTML and building my first portfolio website. I have already
+          build a personal portfolio website using HTML basics, and I am
+          currently enhancing it by building this portfolio website using HTML
+          and CSS. While working on this project, w I have learned the
+          fundamentals of CSS including stylesheets, styling rules, CSS
+          selectors, CSS properties such as color, background and font, the box
+          model, CSS positioning and responsive design basics. This project
+          helped me understand how to style webpages and create responsive
+          layouts.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h3>My Skills</h3>
+        <ul class="skill-list" type="square"> 
+          <li class="list-items" >HTML and semantic web development</li>
+          <li class="list-items" >CSS selectors and layout techniques</li>
+          <li class="list-items" >CSS3 styling and responsive web design</li>
+          <li class="list-items" >Box model and spacing techniques</li>
+          <li class="list-items" >CSS positioning and web structuring</li>
+          <li class="list-items" >Responsive design using media queries</li>
+          <li class="list-items" >Git and GitHub version control basics</li>
+        </ul>
+      </section>
+
+      <section id="project">
+        <h3>My Projects</h3>
+
+        <h4>Personal Portfolio Website</h4>
+
+        <a class="image"
+          href="https://github.com/ritika-vk2k25/personal-portfolio-website"
+          target="_blank"
+          ><img
+            class="project-link-img"
+            src="/styled_portfolio_website/images/first_project.png"
+            width="300"
+            height="100"
+            alt="portfolio project screenshot"
+        /></a>
+
+        <p class="para">
+          This project is a personal portfolio website.The purpose of this project was to understand the practical
+          applicaton of HTML basics.
+        </p>
+
+        <p>HTML5 was used to build this project.</p>
+      </section>
+
+      <section id="contact">
+        <h3>Contact Me</h3>
+
+        <div>email: vish58ritika@gmail.com</div>
+        <div>
+          GitHub link:
+          <a class="links" href="https://github.com/ritika-vk2k25" target="_blank"
+            >https://github.com/ritika-vk2k25</a
+          >
+        </div>
+        <br>
+
+        <form>
+          <label>Name:</label>
+          <input class="input-box"
+            type="text"
+            placeholder="Enter your name"
+            required
+            minlength="3"
+          /><br /><br />
+
+          <label>email:</label>
+          <input class="input-box"
+            type="email"
+            placeholder="Enter your email"
+            required
+          /><br /><br />
+
+          <label>Message:</label>
+          <textarea id="text-area" class="input-box"
+            placeholder="Write a message"
+            required
+            maxlength="100"
+          ></textarea
+          ><br /><br />
+
+          <button id="button" type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+<p class="copyright">&copy; 2026 Ritika Vishwakarma </p>
+    </footer>
+  </body>
+</html>
