@@ -1,7 +1,7 @@
-# Personal Portfolio Website
+# Styled Portfolio Website
 
 ## Overview
-This is a personal portfolio website created using HTML and CSS. The website showcases my introduction, skills, projects, and contact information in a clean and responsive design.
+This is a styled portfolio website created using HTML and CSS. The website showcases my introduction, skills, projects, and contact information in a clean and responsive design.
 
 The purpose of this project was to practice and improve my frontend web development skills while building a professional portfolio website.
 
